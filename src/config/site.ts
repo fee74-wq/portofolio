@@ -18,21 +18,18 @@ export const siteConfig = {
       image: "/images/baro-edit.jpg",
       tags: ["Next.js", "TypeScript", "Tailwind CSS"],
       demo: "https://baro-korean-course-exm.lovable.app",
-      source: "https://github.com/your-username/studio-north-concept",
     },
     {
       id: "dashboard",
       image: "/images/langits2.jpg",
       tags: ["React", "TypeScript", "Recharts"],
-      demo: "",https://langit-djajan-exmp.lovable.app/
-      source: "https://github.com/your-username/pulse-dashboard-concept",
+      demo: "https://langit-djajan-exmp.lovable.app",
     },
     {
       id: "commerce",
       image: "/images/kasirkuss2.jpg",
       tags: ["Next.js", "Shopify", "Framer Motion"],
       demo: "https://kasirku-on.netlify.app",
-      source: "https://github.com/your-username/forma-store-concept",
     },
   ],
   pricing: [
