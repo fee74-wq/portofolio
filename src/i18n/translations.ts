@@ -84,17 +84,17 @@ const en = {
     projects: {
       studio: {
         title: "Baro Korean Course",
-        description: "An interactive platform for learning Korean with structured lessons and a clean, engaging interface.",
+        description: "An offline Korean course learning website designed to make it easy for prospective students to view available materials and allow them to ask questions or send registration forms directly via WhatsApp admin.",
         alt: "Baro Korean Course website interface showing Korean learning lessons",
       },
       dashboard: {
         title: "Langit Djajan",
-        description: "A vibrant culinary and snack ordering platform showcasing local treats with a smooth user experience.",
+        description: "A website for local culinary entrepreneurs integrated with Google Maps, allowing customers to place pre-orders before visiting the location directly.",
         alt: "Langit Djajan culinary platform interface with snack listings",
       },
       commerce: {
         title: "Kasirku",
-        description: "A modern point-of-sale (POS) and cashier web application designed to simplify business transactions.",
+        description: "A Progressive Web App (PWA) for small and growing MSME business owners featuring offline-first capabilities and multi-tenancy.",
         alt: "Kasirku POS cashier web application dashboard",
       },
     },
@@ -213,9 +213,9 @@ export const messages: Record<Locale, Messages> = {
     portfolio: {
       eyebrow: "Beberapa pilihan karya", title: "Karya nyata yang telah dibuat.", copy: "Beberapa proyek nyata yang menunjukkan kualitas pengerjaan dan standar produksi yang saya hadirkan.", concept: "Proyek", demo: "Demo langsung",
       projects: {
-        studio: { title: "Baro Korean Course", description: "Platform interaktif untuk belajar bahasa Korea dengan materi terstruktur dan antarmuka yang menarik.", alt: "Tampilan antarmuka website Baro Korean Course untuk belajar bahasa Korea" },
-        dashboard: { title: "Langit Djajan", description: "Platform kuliner dan pemesanan jajanan yang menampilkan berbagai camilan lokal dengan pengalaman pengguna yang mulus.", alt: "Tampilan platform kuliner Langit Djajan dengan daftar jajanan" },
-        commerce: { title: "Kasirku", description: "Aplikasi web kasir dan point-of-sale (POS) modern yang dirancang untuk menyederhanakan transaksi bisnis.", alt: "Dashboard aplikasi web kasir Kasirku POS" },
+        studio: { title: "Baro Korean Course", description: "Sebuah website offline course pembelajaran bahasa korea untuk memudahkan calon murid melihat materi yang akan di dapatkan dan memungkinkan calon murid bertanya atau langsung mengirimkan formulir pendaftaran melalui whatsApp admin.", alt: "Tampilan antarmuka website Baro Korean Course untuk belajar bahasa Korea" },
+        dashboard: { title: "Langit Djajan", description: "Sebuah website untuk pengusaha kuliner lokal yang ter integerasi dengan google maps dan memungkinkan pelanggan melakukan pre-order sebelum berkunjung langsung ke tempat.", alt: "Tampilan platform kuliner Langit Djajan dengan daftar jajanan" },
+        commerce: { title: "Kasirku", description: "Sebuah aplikasi progressif web app (PWA) untuk pemilik bisnis yang masih kecil dan berkembang UMKM dengan fitur offline first dan multi-tenant.", alt: "Dashboard aplikasi web kasir Kasirku POS" },
       },
     },
     process: {
@@ -272,9 +272,9 @@ export const messages: Record<Locale, Messages> = {
     portfolio: {
       eyebrow: "Proyectos recientes", title: "Trabajo real hecho realidad.", copy: "Una selección de proyectos reales que muestran la calidad y el enfoque de producción que aporto.", concept: "Proyecto", demo: "Ver demo",
       projects: {
-        studio: { title: "Baro Korean Course", description: "Una plataforma interactiva para aprender coreano con lecciones estructuradas y una interfaz atractiva.", alt: "Interfaz del sitio web Baro Korean Course para aprender coreano" },
-        dashboard: { title: "Langit Djajan", description: "Una plataforma culinaria y de pedidos de snacks que muestra delicias locales con una experiencia fluida.", alt: "Interfaz de la plataforma culinaria Langit Djajan con listado de snacks" },
-        commerce: { title: "Kasirku", description: "Una aplicación web de punto de venta (POS) y caja moderna diseñada para simplificar transacciones comerciales.", alt: "Panel de la aplicación web de caja Kasirku POS" },
+        studio: { title: "Baro Korean Course", description: "Un sitio web de cursos presenciales de coreano diseñado para facilitar que los futuros estudiantes vean el material disponible y puedan hacer preguntas o enviar formularios de inscripción directamente vía WhatsApp del administrador.", alt: "Interfaz del sitio web Baro Korean Course para aprender coreano" },
+        dashboard: { title: "Langit Djajan", description: "Un sitio web para emprendedores culinarios locales integrado con Google Maps, que permite a los clientes hacer pre-pedidos antes de visitar el lugar directamente.", alt: "Interfaz de la plataforma culinaria Langit Djajan con listado de snacks" },
+        commerce: { title: "Kasirku", description: "Una Progressive Web App (PWA) para propietarios de pequeños y crecientes negocios PyME con funciones offline-first y multi-tenant.", alt: "Panel de la aplicación web de caja Kasirku POS" },
       },
     },
     process: { eyebrow: "Un camino claro", title: "Pasos pequeños. Entrega sólida.", copy: "Un proceso sin sorpresas. Siempre sabrás qué ocurre, qué sigue y cuándo estará listo.", steps: [{ title: "Brief", description: "Acordamos el objetivo, el alcance, el equipo y cómo se ve un buen resultado." }, { title: "Propuesta", description: "Recibes un plan, calendario, entregables y presupuesto transparentes." }, { title: "Desarrollo", description: "Comparto avances pronto, mantengo la comunicación abierta y trabajo por iteraciones." }, { title: "Entrega", description: "Recibes trabajo probado, código limpio y las notas necesarias para continuar." }] },
@@ -293,9 +293,9 @@ export const messages: Record<Locale, Messages> = {
     portfolio: {
       eyebrow: "Projetos recentes", title: "Trabalhos reais entregues.", copy: "Uma seleção de projetos reais que demonstram o padrão de qualidade e entrega que ofereço.", concept: "Projeto", demo: "Ver demonstração",
       projects: {
-        studio: { title: "Baro Korean Course", description: "Uma plataforma interativa para aprender coreano com lições estruturadas e uma interface envolvente.", alt: "Interface do site Baro Korean Course para aprendizado de coreano" },
-        dashboard: { title: "Langit Djajan", description: "Uma plataforma culinária e de pedidos de lanches que destaca delícias locais com uma experiência fluida.", alt: "Interface da plataforma culinária Langit Djajan com lista de lanches" },
-        commerce: { title: "Kasirku", description: "Um aplicativo web de ponto de venda (POS) e caixa moderno projetado para simplificar transações comerciais.", alt: "Painel do aplicativo web de caixa Kasirku POS" },
+        studio: { title: "Baro Korean Course", description: "Um site de curso presencial de coreano projetado para facilitar a visualização dos materiais disponíveis pelos futuros alunos e permitir que façam perguntas ou enviem formulários de inscrição diretamente pelo WhatsApp do administrador.", alt: "Interface do site Baro Korean Course para aprendizado de coreano" },
+        dashboard: { title: "Langit Djajan", description: "Um site para empreendedores culinários locais integrado ao Google Maps, permitindo que os clientes façam pré-pedidos antes de visitar o local diretamente.", alt: "Interface da plataforma culinária Langit Djajan com lista de lanches" },
+        commerce: { title: "Kasirku", description: "Um aplicativo Progressive Web App (PWA) para pequenos e crescentes proprietários de negócios MEI/PME com recursos offline-first e multi-tenant.", alt: "Painel do aplicativo web de caixa Kasirku POS" },
       },
     },
     process: { eyebrow: "Um caminho claro", title: "Etapas simples. Entrega completa.", copy: "Sem processo misterioso. Você sabe o que está acontecendo, o que vem depois e quando estará pronto.", steps: [{ title: "Briefing", description: "Alinhamos objetivo, escopo, equipe e o que significa um bom resultado." }, { title: "Proposta", description: "Você recebe plano, cronograma, entregas e orçamento sem surpresas." }, { title: "Desenvolvimento", description: "Compartilho o progresso cedo, mantenho a comunicação aberta e trabalho em etapas." }, { title: "Entrega", description: "Você recebe trabalho testado, código organizado e as notas para seguir em frente." }] },
@@ -314,9 +314,9 @@ export const messages: Record<Locale, Messages> = {
     portfolio: {
       eyebrow: "Reale Projekte", title: "Echte Arbeit, greifbar gemacht.", copy: "Eine Auswahl realer Projekte, die die Qualität und den produktionsreifen Standard zeigen, den ich biete.", concept: "Projekt", demo: "Live-Demo",
       projects: {
-        studio: { title: "Baro Korean Course", description: "Eine interaktive Plattform zum Lernen von Koreanisch mit strukturierten Lektionen und einer ansprechenden Benutzeroberfläche.", alt: "Baro Korean Course Website-Oberfläche für das Erlernen der koreanischen Sprache" },
-        dashboard: { title: "Langit Djajan", description: "Eine lebendige Kulinarik- und Snack-Bestellplattform, die lokale Leckereien mit reibungsloser Benutzererfahrung präsentiert.", alt: "Langit Djajan Kulinarik-Plattform-Oberfläche mit Snack-Angeboten" },
-        commerce: { title: "Kasirku", description: "Eine moderne Kassa- und Point-of-Sale (POS)-Webanwendung zur Vereinfachung von Geschäftstransaktionen.", alt: "Kasirku POS Kassen-Webanwendungs-Dashboard" },
+        studio: { title: "Baro Korean Course", description: "Eine Website für Offline-Koreanischkurse, die es potenziellen Schülerinnen und Schülern leicht macht, die angebotenen Lernmaterialien einzusehen, Fragen zu stellen oder das Anmeldeformular direkt über den Admin-WhatsApp zu senden.", alt: "Baro Korean Course Website-Oberfläche für das Erlernen der koreanischen Sprache" },
+        dashboard: { title: "Langit Djajan", description: "Eine Website für lokale kulinarische Unternehmer, die in Google Maps integriert ist und es Kundinnen und Kunden ermöglicht, Vorbestellungen aufzugeben, bevor sie den Ort direkt besuchen.", alt: "Langit Djajan Kulinarik-Plattform-Oberfläche mit Snack-Angeboten" },
+        commerce: { title: "Kasirku", description: "Eine Progressive Web App (PWA) für Klein- und wachsende KMU-Geschäftsinhaber mit Offline-First-Funktionen und Mandantenfähigkeit (Multi-Tenant).", alt: "Kasirku POS Kassen-Webanwendungs-Dashboard" },
       },
     },
     process: { eyebrow: "Ein klarer Weg", title: "Kleine Schritte. Saubere Übergabe.", copy: "Kein undurchsichtiger Prozess. Du weißt, was passiert, was als Nächstes kommt und wann es fertig ist.", steps: [{ title: "Briefing", description: "Wir klären Ziel, Umfang, Beteiligte und woran wir ein gutes Ergebnis erkennen." }, { title: "Angebot", description: "Du erhältst einen klaren Plan, Zeitrahmen, Leistungen und ein transparentes Angebot." }, { title: "Umsetzung", description: "Ich teile früh Fortschritte, kommuniziere offen und arbeite in fokussierten Etappen." }, { title: "Übergabe", description: "Du erhältst getestete Arbeit, sauberen Code und alle wichtigen Hinweise." }] },
@@ -335,9 +335,9 @@ export const messages: Record<Locale, Messages> = {
     portfolio: {
       eyebrow: "Projets récents", title: "Des réalisations concrètes.", copy: "Une sélection de projets réels démontrant la qualité et le soin apportés à chaque réalisation.", concept: "Projet", demo: "Voir la démo",
       projects: {
-        studio: { title: "Baro Korean Course", description: "Une plateforme interactive pour apprendre le coréen avec des leçons structurées et une interface soignée.", alt: "Interface du site Baro Korean Course pour l'apprentissage du coréen" },
-        dashboard: { title: "Langit Djajan", description: "Une plateforme culinaire et de commande de snacks mettant en valeur des gourmandises locales avec une navigation fluide.", alt: "Interface de la plateforme culinaire Langit Djajan avec liste de snacks" },
-        commerce: { title: "Kasirku", description: "Une application web de point de vente (POS) et de caisse moderne conçue pour simplifier les transactions commerciales.", alt: "Tableau de bord de l'application web de caisse Kasirku POS" },
+        studio: { title: "Baro Korean Course", description: "Un site web de cours de coréen en présentiel conçu pour permettre aux futurs élèves de consulter facilement les supports de cours et de poser des questions ou d'envoyer directement un formulaire d'inscription via le WhatsApp de l'administrateur.", alt: "Interface du site Baro Korean Course pour l'apprentissage du coréen" },
+        dashboard: { title: "Langit Djajan", description: "Un site web pour les entrepreneurs culinaires locaux intégré à Google Maps, permettant aux clients de passer des précommandes avant de se rendre directement sur place.", alt: "Interface de la plateforme culinaire Langit Djajan avec liste de snacks" },
+        commerce: { title: "Kasirku", description: "Une Progressive Web App (PWA) destinée aux propriétaires de petites et moyennes entreprises (PME/TPE) avec des fonctionnalités hors-ligne (offline-first) et multi-tenant.", alt: "Tableau de bord de l'application web de caisse Kasirku POS" },
       },
     },
     process: { eyebrow: "Un parcours clair", title: "Des étapes simples. Une livraison nette.", copy: "Aucune étape opaque. Vous savez ce qui se passe, ce qui vient ensuite et quand ce sera prêt.", steps: [{ title: "Brief", description: "Nous définissons l'objectif, le périmètre, les interlocuteurs et le résultat attendu." }, { title: "Proposition", description: "Vous recevez un plan, un calendrier, les livrables et un devis clair." }, { title: "Développement", description: "Je partage rapidement les avancées, communique ouvertement et avance par étapes." }, { title: "Livraison", description: "Vous recevez un travail testé, un code propre et les notes pour la suite." }] },
@@ -356,9 +356,9 @@ export const messages: Record<Locale, Messages> = {
     portfolio: {
       eyebrow: "مشاريع حقيقية", title: "أعمال واقعية تم إنجازها.", copy: "مجموعة من المشاريع الحقيقية التي توضح جودة العمل ومعايير الإنتاج التي أقدمها.", concept: "مشروع", demo: "عرض مباشر",
       projects: {
-        studio: { title: "Baro Korean Course", description: "منصة تفاعلية لتعلم اللغة الكورية مع دروس منظمة واجهة جذابة وسلسة.", alt: "واجهة موقع Baro Korean Course لتعلم اللغة الكورية" },
-        dashboard: { title: "Langit Djajan", description: "منصة للطهي وطلب الوجبات الخفيفة تعرض الأطعمة المحلية بتجربة مستخدم سلسة.", alt: "واجهة منصة الطهي Langit Djajan مع قائمة الوجبات الخفيفة" },
-        commerce: { title: "Kasirku", description: "تطبيق ويب حديث لنقاط البيع (POS) والكاشیر مصمم لتسهيل المعاملات التجارية.", alt: "لوحة تحكم تطبيق ويب الكاشير Kasirku POS" },
+        studio: { title: "Baro Korean Course", description: "موقع إلكتروني لدورة كوررية حضورية مصمم لتسهيل استعراض المواد التعليمية للطلاب المحتملين والسماح لهم بتوجيه الأسئلة أو إرسال استمارة التسجيل مباشرة عبر واتساب المشرف.", alt: "واجهة موقع Baro Korean Course لتعلم اللغة الكورية" },
+        dashboard: { title: "Langit Djajan", description: "موقع إلكتروني لأصحاب المشاريع الغذائية المحلية متكامل مع خرائط جوجل، يتيح للعملاء إجراء الطلب المسبق قبل زيارة المكان مباشرة.", alt: "واجهة منصة الطهي Langit Djajan مع قائمة الوجبات الخفيفة" },
+        commerce: { title: "Kasirku", description: "تطبيق ويب تقدمي (PWA) لأصحاب المشاريع الصغيرة والمتوسطة الناشئة يتميز بقدرات العمل بدون إنترنت أولاً (offline-first) ودعم تعدد المستأجرين (multi-tenant).", alt: "لوحة تحكم تطبيق ويب الكاشير Kasirku POS" },
       },
     },
     process: { eyebrow: "خطوات واضحة", title: "خطوات بسيطة. تسليم متكامل.", copy: "عملية بلا غموض. ستعرف ما يحدث وما الخطوة التالية ومتى يكون العمل جاهزاً.", steps: [{ title: "الموجز", description: "نتفق على الهدف والنطاق والفريق وشكل النتيجة الجيدة." }, { title: "العرض", description: "تحصل على خطة واضحة وجدول زمني ومخرجات وتكلفة محددة." }, { title: "التنفيذ", description: "أشارك التقدم مبكراً وأبقي التواصل مفتوحاً وأعمل على مراحل مركزة." }, { title: "التسليم", description: "تستلم عملاً مختبراً وشيفرة مرتبة وملاحظات تساعدك على المتابعة." }] },
@@ -377,9 +377,9 @@ export const messages: Record<Locale, Messages> = {
     portfolio: {
       eyebrow: "実際の制作実績", title: "確かな実績を形に。", copy: "私が手がけた実際のプロジェクトを通じて、提供する品質や制作の水準をご覧いただけます。", concept: "プロジェクト", demo: "デモを見る",
       projects: {
-        studio: { title: "Baro Korean Course", description: "体系的なレッスンと魅力的なインターフェースを備えた、韓国語学習のためのインタラクティブなプラットフォーム。", alt: "韓国語学習用ウェブサイト Baro Korean Course の画面" },
-        dashboard: { title: "Langit Djajan", description: "地元の軽食や料理をスムーズな操作性で紹介する、活気あるフード・スナック注文プラットフォーム。", alt: "スナック一覧が表示された Langit Djajan 料理プラットフォームの画面" },
-        commerce: { title: "Kasirku", description: "ビジネスの取引をシンプルにするために設計された、モダンなPOS・レジスター向けWebアプリケーション。", alt: "Kasirku POSレジWebアプリケーションのダッシュボード画面" },
+        studio: { title: "Baro Korean Course", description: "韓国語のオフラインコース学習ウェブサイト。見込み客が提供される教材を簡単に確認し、質問したり、管理者のWhatsAppから直接登録フォームを送信できるように設計されています。", alt: "韓国語学習用ウェブサイト Baro Korean Course の画面" },
+        dashboard: { title: "Langit Djajan", description: "Googleマップと統合された地元の飲食店向けウェブサイトで、お客様が直接店舗を訪れる前に事前注文できるように設計されています。", alt: "スナック一覧が表示された Langit Djajan 料理プラットフォームの画面" },
+        commerce: { title: "Kasirku", description: "オフラインファースト機能とマルチテナントを備えた、中小企業および成長中の事業者向けのプログレッシブ・ウェブ・アプリ（PWA）。", alt: "Kasirku POSレジWebアプリケーションのダッシュボード画面" },
       },
     },
     process: { eyebrow: "明確な進め方", title: "一歩ずつ、きちんと引き継ぎ。", copy: "進行状況を見失わないプロセスです。今何をしているか、次に何をするか、いつ完成するかを共有します。", steps: [{ title: "ヒアリング", description: "目的、範囲、関係者、成功の基準を一緒に整理します。" }, { title: "ご提案", description: "計画、スケジュール、成果物、分かりやすいお見積もりをお送りします。" }, { title: "開発", description: "早い段階から進捗を共有し、対話しながら集中して実装します。" }, { title: "引き継ぎ", description: "動作確認済みの成果物、読みやすいコード、必要な資料をお渡しします。" }] },

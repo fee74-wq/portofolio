@@ -16,19 +16,19 @@ export const siteConfig = {
     {
       id: "studio",
       image: "/images/baro-edit.jpg",
-      tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+      tags: ["TypeScript", "JavaScript", "CSS"],
       demo: "https://baro-korean-course-exm.lovable.app",
     },
     {
       id: "dashboard",
       image: "/images/langits2.jpg",
-      tags: ["React", "TypeScript", "Recharts"],
+      tags: ["TypeScript", "JavaScript", "CSS"],
       demo: "https://langit-djajan-exmp.lovable.app",
     },
     {
       id: "commerce",
       image: "/images/kasirkuss2.jpg",
-      tags: ["Next.js", "Shopify", "Framer Motion"],
+      tags: ["TypeScript", "CSS", "JavaScript", "IndexedDB", "Supabase"],
       demo: "https://kasirku-on.netlify.app",
     },
   ],
