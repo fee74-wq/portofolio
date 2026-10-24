@@ -327,7 +327,7 @@ function App() {
                     <article className="project-card">
                       <a className="project-image-link" href={project.demo} target="_blank" rel="noreferrer" aria-label={`${t.portfolio.demo}: ${copy.title}`}>
                         <div className="project-image-frame">
-                          <img src={project.image} alt={copy.alt} loading="lazy" decoding="async" width="1200" height="900" />
+                          <img src={project.image} alt={copy.alt} loading="lazy" decoding="async" width="1200" height="900" style={{ objectFit: "contain", width: "100%", height: "100%" }} />
                           <span className="project-image-action" aria-hidden="true"><ArrowUpRight size={21} /></span>
                         </div>
                       </a>
