@@ -13,6 +13,7 @@ Replace the concept project artwork in `public/images/` with real work before la
 ## Run locally
 
 ```sh
+git clone https://github.com/fee74-wq/portofolio.git
 npm install
 npm run dev
 ```
