@@ -8,17 +8,42 @@ interface ContactFormProps {
 
 export function ContactForm({ t }: ContactFormProps) {
   const [hasError, setHasError] = useState(false);
-  const [submitted] = useState(() => new URLSearchParams(window.location.search).get("contact") === "success");
+  const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-    if (!event.currentTarget.checkValidity()) {
-      event.preventDefault();
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+
+    if (!form.checkValidity()) {
       setHasError(true);
-      event.currentTarget.reportValidity();
+      form.reportValidity();
       return;
     }
 
     setHasError(false);
+
+    try {
+      const formData = new FormData(form);
+      const params = new URLSearchParams();
+      params.append("form-name", "contact");
+      formData.forEach((value, key) => {
+        params.append(key, value.toString());
+      });
+
+      const response = await fetch("/_forms.html", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: params.toString(),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to submit form");
+      }
+
+      setSubmitted(true);
+    } catch {
+      setHasError(true);
+    }
   };
 
   if (submitted) {
@@ -36,7 +61,6 @@ export function ContactForm({ t }: ContactFormProps) {
       className="contact-form"
       name="contact"
       method="POST"
-      action="/?contact=success#contact"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
